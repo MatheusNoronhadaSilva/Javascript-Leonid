@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: initial;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.item{
+    width: 75%;
+    height: 200px;
+    background-color: cornflowerblue;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5vw;
+    align-items: center;
+    padding: 8px;
+}
+
+label{
+    font-size: 1.5vw;
+}
+
+.resultado{
+    width: 100px;
+    height: 20px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+input{
+    background-color: antiquewhite;
+    width: 3vw;
+}
+
+button{
+    padding: 8px;
+    width: 7vw;
+    font-size: 0.7rem;
+}

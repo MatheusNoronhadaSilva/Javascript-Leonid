@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.linhacontainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    gap: 16px;
+    background-color: darksalmon;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.card{
+    width: 30vw;
+    height: 11vh;
+    background-color: bisque;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 8px;
+    padding-top: 10px;
+    margin: 0px 40px 0px 40px;
+}
+
+.principal{
+    display: flex;
+}
+
+.principal h2{
+    padding-right: 10px;
+}
+
+.principal span{
+    padding-left: 200px;
+}
+
+.principal div{
+    background-color: crimson;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+}
+.mensagem {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.card img{
+    height: 90%;
+    border-radius: 50%;
+    padding: 0px 5px 10px 5px ;
+}
+
+.nome2 {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding: 5px
+}
